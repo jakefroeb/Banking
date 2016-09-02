@@ -6,7 +6,7 @@ public class Main {
     public static Bank bank = new Bank();
     public static void main(String[] args) throws Exception{
         while(true) {
-            bank.userName();
+            bank.welcomeUser();
             bank.checkAccount();
 
             bank.promptUser();
